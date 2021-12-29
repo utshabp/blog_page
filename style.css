@@ -1,6 +1,8 @@
  .header-container {
      max-width: 90em;
-     display: inline;
+     /* display: inline; */
+     overflow: hidden;
+     padding: 10px;
  }
  
  .header-container h3 {
@@ -16,9 +18,64 @@
      margin-right: 5em;
  }
  
- .hero-image-content {
-     margin-top: 20px;
-     width: 20em;
+ .hero-image {
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .hero-image::before {
+     content: "";
+     background-image: url("/blog_page/image/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg");
+     width: 100vw;
      height: 20em;
-     background-color: blanchedalmond;
+     position: absolute;
+     z-index: -1;
+     opacity: 1.5;
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-size: 20px;
+ }
+ 
+ .hero-image-content {
+     padding-top: 40px;
+     padding-bottom: 9em;
+ }
+ 
+ .hero-image-content h2,
+ p {
+     text-align: center;
+     color: white;
+ }
+ 
+ .hero-buttons ul {
+     margin-left: 40em;
+     /* list-style-type: none;
+     text-decoration: none; */
+     text-decoration: none;
+ }
+ 
+ .hero-buttons ul li {
+     display: inline;
+     margin: 0 20px;
+     color: white;
+     font-size: 20px;
+ }
+ 
+ .hero-buttons a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .buttons1 {
+     border: 3px solid white;
+     padding: 7px 7px;
+ }
+ 
+ .buttons2 {
+     padding: 8px 8px;
+     background-color: #00897b;
+ }
+ 
+ .about-us {
+     margin: 20px;
  }
