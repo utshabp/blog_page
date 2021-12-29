@@ -1,22 +1,24 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.header {
-    width: 100%;
-}
-
-.header_logo {
-    margin: 20px;
-    width: 50%;
-}
-
-.search_logo {
-    float: right;
-}
-
-.search_logo img {
-    height: 20px;
-    width: 20px;
-}
+ .header-container {
+     max-width: 90em;
+     display: inline;
+ }
+ 
+ .header-container h3 {
+     width: 30%;
+     margin-left: 5em;
+     float: left;
+ }
+ 
+ .header-container img {
+     float: right;
+     height: 25px;
+     width: 25px;
+     margin-right: 5em;
+ }
+ 
+ .hero-image-content {
+     margin-top: 20px;
+     width: 20em;
+     height: 20em;
+     background-color: blanchedalmond;
+ }
