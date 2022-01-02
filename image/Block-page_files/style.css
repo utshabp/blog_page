@@ -1,0 +1,156 @@
+.wrapper {
+    padding: 10px 40px 0 25px;
+}
+
+.header-container {
+    max-width: 90em;
+    /* display: inline; */
+    overflow: hidden;
+}
+
+.header-container h3 {
+    float: left;
+}
+
+.header-container img {
+    float: right;
+    height: 25px;
+    width: 25px;
+}
+
+.hero-image {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.hero-image::before {
+    content: "";
+    background-image: url("/blog_page/image/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg");
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image-content {
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.hero-image-content h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.hero-image-content p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    ;
+}
+
+.hero-buttons {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+button {
+    margin: 7px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn-1 {
+    background-color: Transparent;
+    border: 2px solid white;
+}
+
+#btn-2 {
+    background-color: #00897b;
+}
+
+
+/* .about-us {
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.about-us h1 {
+    font-size: 25px;
+}
+
+.about-us p {
+    color: black;
+    font-size: 15px;
+}
+
+.listing-section {
+    margin-top: 60px;
+}
+
+.first-section {
+    width: 80%;
+    margin: auto;
+}
+
+.image-section {
+    width: 80%;
+    margin: auto;
+}
+
+.image-section img {
+    height: 40px;
+    width: 40px;
+}
+
+.text-section h1 {
+    font-size: 15px;
+}
+
+.text-section p {
+    font-size: 10px;
+}
+
+.last-container {
+    max-width: 90em;
+    margin-top: 60px;
+    background-color: #e4fdf9;
+}
+
+.blog {
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.collection {
+    width: 90%;
+    overflow: hidden;
+}
+
+.imgcontaineer {
+    width: 40%;
+    height: 20vh;
+    background-color: tomato;
+    float: left
+}
+
+.text-containeer {
+    width: 40%;
+    height: 20vh;
+    background-color: tomato;
+    float: right;
+} */

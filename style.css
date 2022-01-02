@@ -1,114 +1,218 @@
- .header-container {
-     max-width: 90em;
-     /* display: inline; */
-     overflow: hidden;
-     padding: 10px;
- }
- 
- .header-container h3 {
-     width: 30%;
-     margin-left: 5em;
-     float: left;
- }
- 
- .header-container img {
-     float: right;
-     height: 25px;
-     width: 25px;
-     margin-right: 5em;
- }
- 
- .hero-image {
-     position: relative;
-     z-index: 1;
- }
- 
- .hero-image::before {
-     content: "";
-     background-image: url("/blog_page/image/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg");
-     width: 100vw;
-     height: 20em;
-     position: absolute;
-     z-index: -1;
-     opacity: 1.5;
-     background-repeat: no-repeat;
-     background-size: cover;
-     font-size: 20px;
- }
- 
- .hero-image-content {
-     padding-top: 40px;
-     padding-bottom: 9em;
-     overflow: hidden;
- }
- 
- .hero-image-content h2,
- p {
-     text-align: center;
-     color: white;
- }
- 
- .hero-buttons ul {
-     margin-left: 40em;
-     /* list-style-type: none;
-     text-decoration: none; */
-     text-decoration: none;
-     padding-bottom: 200px;
- }
- 
- .hero-buttons ul li {
-     display: inline;
-     margin: 0 20px;
-     color: white;
-     font-size: 20px;
- }
- 
- .hero-buttons a {
-     text-decoration: none;
-     color: white;
- }
- 
- .buttons1 {
-     border: 3px solid white;
-     padding: 7px 7px;
- }
- 
- .buttons2 {
-     padding: 8px 8px;
-     background-color: #00897b;
- }
- 
- .about-us {
-     margin: auto;
-     text-align: center;
-     width: 50%;
- }
- 
- .about-us p {
-     color: black;
- }
- 
- .listing-section {
-     width: 100%;
-     display: inline;
- }
- 
- .listing-section ul {}
- 
- .listing-section ul li {
-     list-style-type: none;
- }
- 
- .first-section {
-     width: 15%;
- }
- 
- .image-section img {
-     height: 25px;
-     width: 25px;
- }
- 
- .text-section p {
-     color: black;
-     margin-right: 42px;
- }
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+    
+    .header-container {
+        max-width: 90em;
+        /* display: inline; */
+        overflow: hidden;
+    }
+    
+    .header-container h3 {
+        float: left;
+    }
+    
+    .header-container img {
+        float: right;
+        height: 25px;
+        width: 25px;
+    }
+    
+    .hero-image {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+        padding-bottom: 450px;
+    }
+    
+    .hero-image::before {
+        content: "";
+        background-image: url("/blog_page/image/development.jpg");
+        width: 100vw;
+        height: 90vh;
+        position: absolute;
+        z-index: -1;
+        opacity: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .hero-image-content {
+        overflow: hidden;
+        padding-top: 150px;
+    }
+    
+    .hero-image-content h2 {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .hero-image-content p {
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        ;
+    }
+    
+    .hero-buttons li {
+        list-style-type: none;
+        display: inline;
+    }
+    
+    .hero-buttons ul {
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .hero-buttons {
+        margin-top: 10px;
+        width: 90em;
+    }
+    
+    .button {
+        margin: 7px;
+        height: 30px;
+        width: 100px;
+        border: none;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    #btn-1 {
+        background-color: Transparent;
+        border: 2px solid white;
+    }
+    
+    #btn-2 {
+        background-color: #00897b;
+    }
+    
+    .first-section {
+        max-width: 90em;
+    }
+    
+    .about-us {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .about-us h1 {
+        font-size: 30px;
+    }
+    
+    .about-us p {
+        font-size: 15px;
+    }
+    
+    .listing-section {
+        margin-top: 20px;
+    }
+    
+    .listing-section li {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    .first-section {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 35px;
+    }
+    
+    .image-section {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .image-section img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .text-section h1 {
+        font-size: 20px;
+    }
+    
+    .text-section p {
+        font-size: 15px;
+    }
+    
+    .last-container {
+        max-width: 90em;
+        margin-top: 30px;
+        background-color: #e4fdf9;
+    }
+    
+    .blog {
+        width: 100%;
+        margin: auto;
+        /* padding-top: 10px; */
+        padding-bottom: 15px;
+    }
+    
+    .blog h2 {
+        font-size: 20px;
+    }
+    
+    .blog p {
+        font-size: 15px;
+    }
+    
+    .blog h2,
+    .blog p {
+        text-align: center;
+    }
+    
+    .text-containeer {
+        width: 40%;
+        height: 20vh;
+        background-color: tomato;
+        float: right;
+    }
+    
+    .last-section {
+        max-width: 90em;
+    }
+    
+    .last-section li {
+        list-style-type: none;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .last-image {
+        width: 90vw;
+        height: 30vh;
+        background-image: url(/blog_page/image/seoimage.jpg);
+    }
+    
+    .last-text-section {
+        width: 90vw;
+    }
+    
+    .last-text-section li {
+        text-align: center;
+    }
+    
+    .last-text-section h1 {
+        font-size: 20px;
+    }
+    
+    .last-text-section p {
+        font-size: 15px;
+    }
+    
+    .copyright-section {
+        width: 90em;
+        margin-top: 15px;
+    }
+    
+    .copyright-section p {
+        text-align: center;
+    }
